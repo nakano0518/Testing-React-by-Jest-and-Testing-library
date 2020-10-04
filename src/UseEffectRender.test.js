@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import UserEffectRender from "./UsrEffectRender";
+import UseEffectRender from "./UseEffectRender";
 
 describe("useEffect rendering", () => {
   it("Should render only after async function resolved", async () => {
